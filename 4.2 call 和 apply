@@ -1,0 +1,16 @@
+# 调用一个对象的一个方法，以另一个对象替换当前对象
+
+apply(func,数组参数)：
+
+```
+function add(a,b){
+  return a+b;  
+}
+function sub(a,b){
+  return a-b;  
+}
+var a1 = add.apply(sub,[4,2]);　　//sub调用add的方法
+var a2 = sub.apply(add,[4,2]);
+alert(a1);  //6     
+alert(a2);  //2
+```
