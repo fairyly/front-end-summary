@@ -42,3 +42,43 @@ getWife("大老婆","小老婆","俏老婆","刁蛮老婆","乖老婆","送上�
 // 换一批老婆
 getWife("超越韦小宝的老婆");
 ```
+2. “提前返回”
+```
+var addEvent = (function(){
+    if (window.addEventListener) {
+        return function(el, sType, fn, capture) {
+            el.addEventListener(sType, function(e) {
+                fn.call(el, e);
+            }, (capture));
+        };
+    } else if (window.attachEvent) {
+        return function(el, sType, fn, capture) {
+            el.attachEvent("on" + sType, function(e) {
+                fn.call(el, e);
+            });
+        };
+    }
+})();
+```
+
+3. “延迟计算”
+
+```
+var averageWeight = 0;
+var addWeight = curryWeight(function() {
+    var i=0; len = arguments.length;
+    for (i; i<len; i+=1) {
+        averageWeight += arguments[i]/len;
+    }
+});
+
+addWeight(2.3);
+addWeight(6.5);
+addWeight(1.2);
+addWeight(2.5);
+addWeight();    //  这里才计算
+
+console.log(averageWeight);    // 3.125
+```
+
+
