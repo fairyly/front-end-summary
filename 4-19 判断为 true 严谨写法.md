@@ -5,4 +5,7 @@ if(foo)      //不够严谨
  
 if(!!foo)    //更为严谨，!!可将其他类型的值转换为boolean类型
 
+typeof(5)  //返回number
+typeof(!!5)  // 返回boolean
+
 ```
