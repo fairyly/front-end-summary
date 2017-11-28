@@ -1,2 +1,43 @@
 # css clip-path
 
+聊天气泡小角实现  
+可以由两种实现的方式  
+
+- canvas，绘制路径，然后再clip图片,本文暂不描述
+- 另一种就是利用css3的新属性clip-path属性，绘制出要切割的路径，然后再给clip-path属性赋值,火狐和IE未实现此属性
+
+参考
+* https://css-tricks.com/clipping-masking-css/
+* MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path
+
+Can I use: https://caniuse.com/#search=css%20clip
+
+```
+/* Keyword values */
+clip-path: none;
+
+/* Image values */ 
+clip-path: url(resources.svg#c1);
+
+/* Box values */
+clip-path: fill-box;
+clip-path: stroke-box;
+clip-path: view-box;
+clip-path: margin-box;
+clip-path: border-box;
+clip-path: padding-box;
+clip-path: content-box;
+
+/* Geometry values */
+clip-path: inset(100px 50px);
+clip-path: circle(50px at 0 100px);
+clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+
+/* Box and geometry values combined */
+clip-path: padding-box circle(50px at 0 100px);
+
+/* Global values */
+clip-path: inherit;
+clip-path: initial;
+clip-path: unset;
+```
