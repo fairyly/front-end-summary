@@ -9,6 +9,7 @@
 参考
 * https://css-tricks.com/clipping-masking-css/
 * MDN: https://developer.mozilla.org/en-US/docs/Web/CSS/clip-path
+* 张鑫旭: http://www.zhangxinxu.com/wordpress/2014/12/css3-svg-clip-path/
 
 Can I use: https://caniuse.com/#search=css%20clip
 
