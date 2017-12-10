@@ -3,6 +3,9 @@ summary
 
 （注：:+1: 表示推荐，:+1::+1: 表示强烈推荐，:x: 表示差评）
 
+<details>
+</details>
+
 ## markdown 索引
 
 - [文学](#文学)
