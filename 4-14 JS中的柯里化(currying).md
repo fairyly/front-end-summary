@@ -2,7 +2,7 @@
 
 * 张鑫旭:http://www.zhangxinxu.com/wordpress/2013/02/js-currying/
 
-① 柯里化（Currying），又称部分求值（Partial Evaluation），
+① 柯里化（Currying），又称部分求值（Partial Evaluation），函数闭包的一种特殊形式
   是把接受多个参数的函数变换成接受一个单一参数（最初函数的第一个参数）的函数，
   并且返回接受余下的参数而且返回结果的新函数的技术
 
