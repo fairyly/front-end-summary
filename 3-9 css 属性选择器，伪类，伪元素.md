@@ -20,14 +20,14 @@
     not: 排除结构元素下的子元素    
     empty: 指定元素空白时样式    
     target: 页面在用户点击超链接，跳转到 target 元素后      
-    ------  
+    ， 
     first-child  
     last-child  
-    nth-child  (odd:奇数，even:偶数)  
+    nth-child  (odd:奇数，even:偶数)  
     nth-last-child  
-    nth-of-type  (odd:奇数，even:偶数)  
+    nth-of-type  (odd:奇数，even:偶数)  
     only-child  
-    ------  
+    ， 
 * UI 元素状态伪类选择器
     
     
