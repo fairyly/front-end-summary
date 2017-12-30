@@ -16,7 +16,7 @@
 
   - 伪元素： first-line,first-letter,before,after
   - 伪类：  
-    root: 根元素  
-    not: 排除结构元素下的子元素  
-    empty: 指定元素空白时样式  
-    target: 页面在用户点击超链接，跳转到 target 元素后    
+    root: 根元素     
+    not: 排除结构元素下的子元素    
+    empty: 指定元素空白时样式    
+    target: 页面在用户点击超链接，跳转到 target 元素后      
