@@ -9,3 +9,14 @@
     <div id="content2"></div>
     <div id="content3"></div>
   ```
+  [id^=content]: * 这里代表属性 id 的属性值开头是字符 content 的元素,如：
+  [id$=content]: * 这里代表属性 id 的属性值结尾是字符 content 的元素,如：
+  
+* 结构性伪类选择器
+
+  - 伪元素： first-line,first-letter,before,after
+  - 伪类：  
+    root: 根元素  
+    not: 排除结构元素下的子元素  
+    empty: 指定元素空白时样式  
+    target: 页面在用户点击超链接，跳转到 target 元素后    
