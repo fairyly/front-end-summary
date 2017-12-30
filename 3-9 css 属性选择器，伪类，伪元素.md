@@ -29,5 +29,21 @@
     only-child  ： 父元素只有一个元素  
     ，     
 * UI 元素状态伪类选择器
-    
+  - hover
+  - active
+  - focus
+  - enabled
+  - disabled
+  - read-only
+  - read-write
+  - checked
+  - ::selection
+  - default
+  - valid
+  - invalid
+  - indeterminate
+  - required
+  - optional
+  - in-range
+  - out-of-range
     
