@@ -1,7 +1,7 @@
 # front-end-summary
 summary
 
-主分支暂不更新
+>主分支暂不更新!!!
 
 具体请到[gh-pages 分支](https://github.com/fairyly/front-end-summary/tree/gh-pages)
 
