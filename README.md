@@ -7,10 +7,6 @@
 * ApacheCN: https://github.com/apachecn
 
 
-- summary
-
-  + 工具类库： lodash: https://github.com/lodash/lodash/
-
 （注：:+1: 表示推荐，:+1::+1: 表示强烈推荐，:x: 表示差评）
 
 <details>
