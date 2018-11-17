@@ -1,0 +1,28 @@
+
+## 求数组最大数
+
+```
+方法一：
+
+
+function findMax(arr) {
+	var max = arr[0];
+	for (var i = 1; i < arr.length; i++) {
+		if (arr[i] > max)
+			max = arr[i];
+	}
+	return max;
+}
+
+
+方法二：
+
+
+function findMax(arr) {
+	return Math.max.apply(Math, arr);
+}
+```
+
+
+## 参考
+- [浅谈数组全排列、去重、求最大值的JavaScript实现](https://blog.csdn.net/zhouziyu2011/article/details/62237216)
